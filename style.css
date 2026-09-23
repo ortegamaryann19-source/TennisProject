@@ -166,19 +166,6 @@ a {
   margin-bottom: 1.75rem;
 }
 
-.rating {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  margin-bottom: 1.25rem;
-}
-
-.stars {
-  color: var(--accent);
-  letter-spacing: 0.1em;
-}
-
 .pricing {
   display: flex;
   align-items: baseline;
