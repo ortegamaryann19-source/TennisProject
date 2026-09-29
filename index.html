@@ -3,284 +3,256 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deuce — Tennis News, Analysis &amp; What's Trending</title>
-  <meta name="description" content="Tennis news, match analysis, and the stories driving the tour — updated every morning." />
+
+  <!-- EDITABLE [BRAND]: working name appears here, in .wordmark (x2), and in the footer legal line. -->
+  <title>Selected Group — Tennis Community Research</title>
+  <meta
+    name="description"
+    content="A short market-research survey for the tennis community: competitive players, parents of junior players, and coaches."
+  />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="nav">
-    <div class="nav-inner">
-      <a href="#top" class="logo">Deuce<span>.</span></a>
-      <nav class="nav-links">
-        <a href="#coverage">News</a>
-        <a href="#how">Sections</a>
-        <a href="#who">Trending</a>
-        <a href="#faq">FAQ</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <!-- EDITABLE [BRAND]: replace wordmark text or swap the <span class="mark"> for an <img> logo. -->
+      <a class="wordmark" href="#main">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="wordmark-text">Selected&nbsp;Group</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#audiences">Take the survey</a>
+        <a href="#about">About the research</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#community">Community</a>
       </nav>
-      <a href="#buy" class="btn btn-primary btn-sm">Subscribe</a>
+
+      <a class="btn btn-primary btn-sm header-cta" href="#audiences">Take the survey</a>
     </div>
   </header>
 
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Today's lead story</p>
-          <h1>The indoor swing is quietly reshaping the race to the finals.</h1>
-          <p class="lede">
-            Three months out, the qualification picture has flipped twice. We
-            break down the points math, the schedules still in play, and who
-            actually controls their own fate.
-          </p>
+  <main id="main">
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="court-motif" aria-hidden="true"></div>
+      <div class="shell hero-inner">
+        <p class="eyebrow">Tennis community research</p>
 
-          <div class="pricing">
-            <span class="price">Free</span>
-            <span class="badge">New issue today</span>
-          </div>
+        <h1 id="hero-title">
+          Tennis is better when the people who play it are heard.
+        </h1>
 
-          <div class="cta-row">
-            <a href="#buy" class="btn btn-primary">Read the brief</a>
-            <a href="#coverage" class="btn btn-ghost">Browse archive</a>
-          </div>
-
-          <ul class="trust">
-            <li>Updated daily</li>
-            <li>Independent newsroom</li>
-            <li>Free to read</li>
-          </ul>
-        </div>
-
-        <div class="hero-visual" aria-hidden="true">
-          <div class="court">
-            <div class="court-line court-baseline"></div>
-            <div class="court-line court-service"></div>
-            <div class="court-line court-center"></div>
-            <div class="ball ball-1"></div>
-            <div class="ball ball-2"></div>
-            <div class="ball ball-3"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- STATS -->
-    <section class="stats" id="coverage">
-      <div class="container stats-grid">
-        <div class="stat">
-          <strong>6 AM</strong>
-          <span>The daily brief lands in your inbox</span>
-        </div>
-        <div class="stat">
-          <strong>60+</strong>
-          <span>Tournaments covered each season</span>
-        </div>
-        <div class="stat">
-          <strong>1.2M</strong>
-          <span>Readers across the tour calendar</span>
-        </div>
-        <div class="stat">
-          <strong>12 yrs</strong>
-          <span>Reporting from the grounds</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTIONS -->
-    <section class="section" id="how">
-      <div class="container">
-        <h2 class="section-title">News, analysis, and the stories behind them</h2>
-        <p class="section-lede">
-          Four desks covering the sport: what happened, why it happened, and what
-          it changes.
+        <p class="hero-lede">
+          We're inviting players, parents, and coaches to share their
+          perspective in a short survey. Your answers help us better understand
+          the needs and preferences of the tennis community.
         </p>
 
-        <div class="features">
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">◎</div>
-            <h3>Breaking news</h3>
-            <p>
-              Draws, withdrawals, results, and rankings — filed as they happen,
-              without the filler between them.
-            </p>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">📈</div>
-            <h3>Match analysis</h3>
-            <p>
-              Tactical breakdowns backed by shot data: what the serve pattern was
-              doing, and where the match actually turned.
-            </p>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">⚙</div>
-            <h3>Trending on tour</h3>
-            <p>
-              Scheduling fights, equipment shifts, coaching moves — the arguments
-              the sport is having right now.
-            </p>
-          </article>
-
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">⌚</div>
-            <h3>Long reads</h3>
-            <p>
-              Interviews and features from the practice courts, the academies,
-              and the qualifying rounds nobody televises.
-            </p>
-          </article>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#audiences">Take the survey</a>
+          <a class="btn btn-quiet" href="#about">What this is about</a>
         </div>
+
+        <p class="hero-note">
+          Takes just a few minutes. <a href="#privacy">How we handle responses</a>
+        </p>
       </div>
     </section>
 
-    <!-- TRENDING -->
-    <section class="section section-alt" id="who">
-      <div class="container">
-        <h2 class="section-title">Trending this week</h2>
+    <!-- ========================= AUDIENCES ========================== -->
+    <section class="section" id="audiences" aria-labelledby="audiences-title">
+      <div class="shell">
+        <header class="section-head">
+          <h2 class="section-title" id="audiences-title">Choose the survey that fits you</h2>
+          <p class="section-lede">
+            Pick the description closest to your role in the game. If more than
+            one applies, choose the one you spend the most time in.
+          </p>
+        </header>
 
-        <div class="audience">
-          <article class="card card-outline">
-            <h3>Hard-court scheduling backlash</h3>
+        <ul class="audience-grid">
+          <li class="audience-card">
+            <span class="card-index" aria-hidden="true">01</span>
+            <h3>Competitive players</h3>
             <p>
-              Eleven months of mandatory events. Players are going public about
-              what an actual off-season would cost them.
+              For players competing at a high level — juniors, collegiate,
+              open, or sanctioned adult competition.
             </p>
-          </article>
+            <!-- EDITABLE [SURVEY]: link target is set in script.js → SURVEY_LINKS.players -->
+            <button class="btn btn-outline" type="button" data-survey="players">
+              Start survey
+            </button>
+          </li>
 
-          <article class="card card-outline">
-            <h3>Electronic line calling expands</h3>
+          <li class="audience-card">
+            <span class="card-index" aria-hidden="true">02</span>
+            <h3>Parents of junior players</h3>
             <p>
-              More events are dropping line judges entirely. Chair umpires say
-              the job is changing faster than the training has.
+              For parents and guardians supporting a junior player's training,
+              travel, and competition.
             </p>
-          </article>
+            <!-- EDITABLE [SURVEY]: link target is set in script.js → SURVEY_LINKS.parents -->
+            <button class="btn btn-outline" type="button" data-survey="parents">
+              Start survey
+            </button>
+          </li>
 
-          <article class="card card-outline">
-            <h3>The return-first philosophy</h3>
+          <li class="audience-card">
+            <span class="card-index" aria-hidden="true">03</span>
+            <h3>Coaches</h3>
             <p>
-              Academies are rebuilding practice blocks around the second shot
-              instead of the first. The data is starting to back it.
+              For coaches and instructors working with players at any level,
+              from development through competition.
             </p>
-          </article>
-        </div>
+            <!-- EDITABLE [SURVEY]: link target is set in script.js → SURVEY_LINKS.coaches -->
+            <button class="btn btn-outline" type="button" data-survey="coaches">
+              Start survey
+            </button>
+          </li>
+        </ul>
+
+        <!-- Status message for survey buttons; announced to screen readers. -->
+        <p class="survey-status" id="survey-status" role="status" aria-live="polite"></p>
       </div>
     </section>
 
-    <!-- READER QUOTES -->
-    <section class="section" id="reviews">
-      <div class="container">
-        <h2 class="section-title">What readers say</h2>
-
-        <div class="quotes">
-          <figure class="quote">
-            <blockquote>
-              It's the only tennis newsletter I actually open. Five minutes and I
-              know everything that moved overnight.
-            </blockquote>
-            <figcaption>Maya R. — Club player, Austin, TX</figcaption>
-          </figure>
-
-          <figure class="quote">
-            <blockquote>
-              The tactical breakdowns changed how I watch matches. I send them to
-              my whole junior squad.
-            </blockquote>
-            <figcaption>Coach Daniel O. — High school program, Sacramento</figcaption>
-          </figure>
-
-          <figure class="quote">
-            <blockquote>
-              Real reporting on the parts of the tour nobody else covers. The
-              qualifying dispatches are worth it alone.
-            </blockquote>
-            <figcaption>Priya S. — Longtime subscriber, Chicago</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- SUBSCRIBE CTA -->
-    <section class="cta-band" id="buy">
-      <div class="container cta-band-inner">
+    <!-- =========================== ABOUT ============================ -->
+    <section class="section section-paper" id="about" aria-labelledby="about-title">
+      <div class="shell about-grid">
         <div>
-          <h2>Never miss a story.</h2>
-          <p>The daily brief, every morning at 6 AM. Free, and no filler.</p>
+          <h2 class="section-title" id="about-title">About the research</h2>
+          <p class="section-lede">
+            This is a market-research survey. We're asking the tennis community
+            about their needs, preferences, and experiences in the game.
+          </p>
         </div>
-        <div class="cta-row">
-          <a href="#buy" class="btn btn-primary">Subscribe free</a>
-          <a href="#coverage" class="btn btn-ghost" id="demo">Read today's issue</a>
+
+        <ul class="about-list">
+          <li>
+            <h3>Who it's for</h3>
+            <p>
+              Competitive players, parents of junior players, and coaches. Each
+              group answers questions relevant to their role.
+            </p>
+          </li>
+          <li>
+            <h3>What we ask</h3>
+            <p>
+              Questions about how you train, compete, and make decisions around
+              the sport.
+            </p>
+          </li>
+          <li>
+            <h3>How responses are used</h3>
+            <p>
+              Responses inform our research into the tennis community. We are
+              not selling anything through this survey.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================== PRIVACY =========================== -->
+    <section class="section" id="privacy" aria-labelledby="privacy-title">
+      <div class="shell shell-narrow">
+        <h2 class="section-title" id="privacy-title">A note on your responses</h2>
+
+        <!-- EDITABLE [PRIVACY]: placeholder language. Must be reviewed and replaced
+             with approved privacy wording before launch. Deliberately makes no
+             claims about anonymity, confidentiality, storage, or data sharing. -->
+        <div class="callout is-placeholder">
+          <p class="placeholder-flag">Placeholder — pending review</p>
+          <p>
+            Responses are collected for market-research purposes. Please only
+            share what you're comfortable sharing, and avoid including sensitive
+            personal information in open-text answers.
+          </p>
+          <p>
+            Our full privacy terms are being finalized and will be published
+            here before the survey opens. If you have questions in the meantime,
+            contact us using the details below.
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section class="section" id="faq">
-      <div class="container container-narrow">
-        <h2 class="section-title">Frequently asked</h2>
-
-        <details class="faq">
-          <summary>How often do you publish?</summary>
-          <p>
-            News runs throughout the day during tournament weeks. The daily brief
-            goes out every morning at 6 AM, year-round.
+    <!-- ========================= COMMUNITY ========================== -->
+    <section class="section section-paper" id="community" aria-labelledby="community-title">
+      <div class="shell">
+        <header class="section-head">
+          <h2 class="section-title" id="community-title">Community &amp; channels</h2>
+          <p class="section-lede">
+            We're planning dedicated spaces for different corners of the tennis
+            world. None of these are live yet — this section is where they'll
+            appear.
           </p>
-        </details>
+        </header>
 
-        <details class="faq">
-          <summary>Is the newsletter really free?</summary>
-          <p>
-            Yes. The daily brief and all news coverage are free. A paid tier adds
-            the full analysis archive and subscriber-only interviews.
-          </p>
-        </details>
+        <!-- EDITABLE [CHANNELS]: when a channel launches, replace its <span> with an
+             <a href="..."> and remove the "Planned" tag. Add or remove items freely. -->
+        <ul class="channel-grid">
+          <li class="channel"><span>Coaches</span><em class="tag-planned">Planned</em></li>
+          <li class="channel"><span>High-level players</span><em class="tag-planned">Planned</em></li>
+          <li class="channel"><span>Parents</span><em class="tag-planned">Planned</em></li>
+          <li class="channel"><span>Electronic line calling</span><em class="tag-planned">Planned</em></li>
+          <li class="channel"><span>Tennis news</span><em class="tag-planned">Planned</em></li>
+          <li class="channel"><span>Equipment</span><em class="tag-planned">Planned</em></li>
+        </ul>
 
-        <details class="faq">
-          <summary>Which tours do you cover?</summary>
-          <p>
-            Both main tours plus Challenger, ITF, and junior events — including
-            the qualifying rounds that rarely get broadcast.
-          </p>
-        </details>
+        <!-- EDITABLE [SOCIAL]: add social links here once channels are created.
+             Remove this block entirely if not needed. -->
+        <div class="social-slot is-placeholder">
+          <p class="placeholder-flag">Placeholder — social links</p>
+          <p>Social channels will be linked here once they're published.</p>
+        </div>
+      </div>
+    </section>
 
-        <details class="faq">
-          <summary>Can I pitch a story or send a tip?</summary>
-          <p>
-            Please do. Tips go to tips@deuce.example, and freelance pitches to
-            editorial@deuce.example. We read everything.
-          </p>
-        </details>
-
-        <details class="faq">
-          <summary>Do you take advertising from brands?</summary>
-          <p>
-            We run limited sponsorships, always labeled. Sponsors get no input on
-            coverage, and editorial never sees the deal terms.
-          </p>
-        </details>
+    <!-- ========================= CLOSING CTA ======================== -->
+    <section class="closing" aria-labelledby="closing-title">
+      <div class="shell closing-inner">
+        <h2 id="closing-title">Share your perspective</h2>
+        <p>The survey is open to players, parents, and coaches.</p>
+        <a class="btn btn-primary" href="#audiences">Take the survey</a>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div>
-        <a href="#top" class="logo">Deuce<span>.</span></a>
-        <p class="muted">Tennis news, analysis, and the stories behind the tour.</p>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand">
+        <!-- EDITABLE [BRAND] -->
+        <span class="wordmark">
+          <span class="mark" aria-hidden="true"></span>
+          <span class="wordmark-text">Selected&nbsp;Group</span>
+        </span>
+        <p class="footer-tagline">Tennis community research.</p>
+        <p class="footer-provisional">Working name — branding not final.</p>
       </div>
-      <nav class="footer-links">
-        <a href="#coverage">News</a>
-        <a href="#how">Sections</a>
-        <a href="#who">Trending</a>
-        <a href="#faq">FAQ</a>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#audiences">Take the survey</a>
+        <a href="#about">About the research</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#community">Community</a>
       </nav>
+
       <div class="footer-contact">
-        <p>tips@deuce.example</p>
-        <p>editorial@deuce.example</p>
+        <h2 class="footer-heading">Contact</h2>
+        <!-- EDITABLE [CONTACT]: replace with a monitored address. -->
+        <p class="is-placeholder-inline">hello@example.com</p>
       </div>
     </div>
-    <p class="copyright">&copy; 2026 Deuce Media. All rights reserved.</p>
+
+    <p class="copyright">
+      <!-- EDITABLE [BRAND + YEAR] -->
+      &copy; 2026 Selected Group
+    </p>
   </footer>
 
   <script src="script.js"></script>
